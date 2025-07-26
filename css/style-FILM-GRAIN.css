@@ -1,0 +1,60 @@
+/*
+  [CSS Index]
+  
+  ---
+  
+  Template Name: Wildone - Photography Portfolio Template
+  Author:  ex-nihilo
+  Version: 1.3 - FILM GRAIN
+*/
+
+
+/*
+  1. TEMPLATE BACKGROUNDS
+    1.1. slick fullscreen slideshow IMG BACKGROUND - FILM GRAIN
+  2. additional styling
+*/
+
+
+/* 1. TEMPLATE BACKGROUNDS */
+/* 1.1. slick fullscreen slideshow IMG BACKGROUND - FILM GRAIN */
+.bg-img-1 {
+background-image: url(../img/background/hero-bg-1-FILM-GRAIN.jpg);
+}
+
+.bg-img-2 {
+background-image: url(../img/background/hero-bg-2-FILM-GRAIN.jpg);
+}
+
+.bg-img-3 {
+background-image: url(../img/background/hero-bg-3-FILM-GRAIN.jpg);
+}
+
+.bg-img-4 {
+background-image: url(../img/background/hero-bg-4-FILM-GRAIN.jpg);
+}
+
+
+/* 2. additional styling */
+.overlay-dark-60:before {
+z-index: 9;
+}
+
+#film-grain {
+position: absolute;
+height: 100%;
+width: 100%;
+left: 0;
+top: 0;
+overflow: hidden;
+background: url(../img/effects/film-grain.gif) repeat top left;
+        opacity: 0.1;
+   -moz-opacity: 0.1;
+-webkit-opacity: 0.1;
+filter: alpha(opacity=10);
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+z-index: 10;
+-webkit-pointer-events: none;
+   -moz-pointer-events: none;
+        pointer-events: none;
+}

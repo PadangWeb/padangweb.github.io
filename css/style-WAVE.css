@@ -1,0 +1,83 @@
+/*
+  [CSS Index]
+  
+  ---
+  
+  Template Name: Wildone - Photography Portfolio Template
+  Author:  ex-nihilo
+  Version: 1.3 - WAVE
+*/
+
+
+/*
+  1. TEMPLATE BACKGROUNDS
+    1.1. wave IMG BACKGROUND
+  2. additional styling
+*/
+
+
+/* 1. TEMPLATE BACKGROUNDS */
+/* 1.1. wave IMG BACKGROUND */
+.wave-img {
+background-image: url(../img/background/wave-bg.jpg);
+}
+
+
+/* 2. additional styling */
+.overlay-dark-60:before {
+z-index: 9;
+}
+
+#wave {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+overflow: hidden;
+bottom: 0;
+left: 0;
+-webkit-pointer-events: none;
+   -moz-pointer-events: none;
+        pointer-events: none;
+z-index: 10;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #wave {
+    z-index: 10;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #wave {
+    display: none;
+	visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .bottom-credits.bottom-credits-dark,
+  .bottom-credits.bottom-credits-dark a,
+  .bottom-credits.bottom-credits-dark a:hover {
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .scroll-indicator.scroll-indicator-dark {
+    background-color: rgba(255, 255, 255, .25);
+  }
+
+  .scroll-indicator.scroll-indicator-dark::before {
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    background: linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  ul.social-icons.social-icons-dark a,
+  ul.social-icons.social-icons-dark a:hover {
+    color: #fff;
+  }
+}

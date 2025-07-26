@@ -1,0 +1,198 @@
+/*
+  [CSS Index]
+  
+  ---
+  
+  Template Name: Wildone - Photography Portfolio Template
+  Author:  ex-nihilo
+  Version: 1.3 - CLOUDS
+*/
+
+
+/*
+  1. TEMPLATE BACKGROUNDS
+    1.1. slick fullscreen slideshow IMG BACKGROUND - CLOUDS
+  2. additional styling
+*/
+
+
+/* 1. TEMPLATE BACKGROUNDS */
+/* 1.1. slick fullscreen slideshow IMG BACKGROUND - CLOUDS */
+.bg-img-1 {
+background-image: url(../img/background/hero-bg-1-CLOUDS.jpg);
+}
+
+.bg-img-2 {
+background-image: url(../img/background/hero-bg-2-CLOUDS.jpg);
+}
+
+.bg-img-3 {
+background-image: url(../img/background/hero-bg-3-CLOUDS.jpg);
+}
+
+.bg-img-4 {
+background-image: url(../img/background/hero-bg-4-CLOUDS.jpg);
+}
+
+
+/* 2. additional styling */
+.overlay-dark-60:before {
+z-index: 9;
+}
+
+.clouds {
+position: absolute;
+width: 150%;
+height: 100%;
+left: -50%;
+top: 0;
+background: none;
+overflow: hidden;
+z-index: 10;
+-webkit-pointer-events: none;
+   -moz-pointer-events: none;
+        pointer-events: none;
+}
+
+.cloud-1 {
+position: absolute;
+left: 0;
+top: 0;
+width: 300%;
+height: 100%;
+background-image: url(../img/effects/cloud-1.png);
+background-repeat: repeat-x;
+-webkit-animation: cloud-1 50s linear infinite;
+   -moz-animation: cloud-1 50s linear infinite;
+    -ms-animation: cloud-1 50s linear infinite;
+     -o-animation: cloud-1 50s linear infinite;
+        animation: cloud-1 50s linear infinite;
+-webkit-transform: scale(1,1) translate3d(0,0,0);
+   -moz-transform: scale(1,1) translate3d(0,0,0);
+    -ms-transform: scale(1,1) translate3d(0,0,0);
+     -o-transform: scale(1,1) translate3d(0,0,0);
+        transform: scale(1,1) translate3d(0,0,0);
+}
+
+.cloud-2 {
+position: absolute;
+left: 0;
+top: 0;
+width: 300%;
+height: 100%;
+background-image: url(../img/effects/cloud-2.png);
+background-repeat: repeat-x;
+-webkit-animation: cloud-2 90s linear infinite;
+   -moz-animation: cloud-2 90s linear infinite;
+    -ms-animation: cloud-2 90s linear infinite;
+     -o-animation: cloud-2 90s linear infinite;
+        animation: cloud-2 90s linear infinite;
+-webkit-transform: scale(1,1) translate3d(0,0,0);
+   -moz-transform: scale(1,1) translate3d(0,0,0);
+    -ms-transform: scale(1,1) translate3d(0,0,0);
+     -o-transform: scale(1,1) translate3d(0,0,0);
+        transform: scale(1,1) translate3d(0,0,0);
+}
+
+.cloud-3 {
+position: absolute;
+left: 0;
+top: 0;
+width: 300%;
+height: 100%;
+background-image: url(../img/effects/cloud-3.png);
+background-repeat: repeat-x;
+-webkit-animation: cloud-3 70s linear infinite;
+   -moz-animation: cloud-3 70s linear infinite;
+    -ms-animation: cloud-3 70s linear infinite;
+     -o-animation: cloud-3 70s linear infinite;
+        animation: cloud-3 70s linear infinite;
+-webkit-transform: scale(1,1) translate3d(0,0,0);
+   -moz-transform: scale(1,1) translate3d(0,0,0);
+    -ms-transform: scale(1,1) translate3d(0,0,0);
+     -o-transform: scale(1,1) translate3d(0,0,0);
+        transform: scale(1,1) translate3d(0,0,0);
+}
+
+@media only screen and (max-width: 880px) {
+  .cloud-1,
+  .cloud-2,
+  .cloud-3 {
+    -webkit-background-size: 25%!important;
+            background-size: 25%!important;
+  }
+}
+
+@-webkit-keyframes cloud-1 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+@-moz-keyframes cloud-1 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+@keyframes cloud-1 {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -200%;
+  }
+}
+@-webkit-keyframes cloud-2 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+@-moz-keyframes cloud-2 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+  @keyframes cloud-2 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+@-webkit-keyframes cloud-3 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+@-moz-keyframes cloud-3 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+@keyframes cloud-3 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}

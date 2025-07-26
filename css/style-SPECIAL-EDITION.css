@@ -1,0 +1,218 @@
+/*
+  [CSS Index]
+  
+  ---
+  
+  Template Name: Wildone - Photography Portfolio Template
+  Author:  ex-nihilo
+  Version: 1.2 - SPECIAL EDITION
+*/
+
+
+/*
+  1. TEMPLATE BACKGROUNDS
+    1.1. home IMG BACKGROUND
+	1.2. about IMG BACKGROUND
+    1.3. services IMG BACKGROUND
+    1.4. works IMG carousel IMG BACKGROUND
+    1.5. news IMG carousel IMG BACKGROUND
+      1.5.1. news panel left bg IMG BACKGROUND
+    1.6. contact IMG BACKGROUND
+  2. additional styling
+*/
+
+
+/* 1. TEMPLATE BACKGROUNDS */
+/* 1.1. home IMG BACKGROUND */
+.section-bg-home {
+background-image: url(../img/background/home-bg-SPECIAL-EDITION.jpg);
+}
+
+
+/* 1.2. about IMG BACKGROUND */
+.about-bg {
+background-image: url(../img/about/about-bg-SPECIAL-EDITION.jpg);
+}
+
+
+/* 1.3. services IMG BACKGROUND */
+.services-bg-1 {
+background-image: url(../img/services/services-bg-1-SPECIAL-EDITION.jpg);
+}
+
+.services-bg-2 {
+background-image: url(../img/services/services-bg-2-SPECIAL-EDITION.jpg);
+}
+
+.services-bg-3 {
+background-image: url(../img/services/services-bg-3-SPECIAL-EDITION.jpg);
+}
+
+
+/* 1.4. works IMG carousel IMG BACKGROUND */
+.works-page-img-carousel-item-1 {		
+background-image: url(../img/works/works-page-img-carousel-item-1-SPECIAL-EDITION.jpg);
+}
+
+.works-page-img-carousel-item-2 {		
+background-image: url(../img/works/works-page-img-carousel-item-2-SPECIAL-EDITION.jpg);
+}
+
+.works-page-img-carousel-item-3 {	
+background-image: url(../img/works/works-page-img-carousel-item-3-SPECIAL-EDITION.jpg);
+}
+
+.works-page-img-carousel-item-4 {		
+background-image: url(../img/works/works-page-img-carousel-item-4-SPECIAL-EDITION.jpg);
+}
+
+.works-page-img-carousel-item-5 {		
+background-image: url(../img/works/works-page-img-carousel-item-5-SPECIAL-EDITION.jpg);
+}
+
+.works-page-img-carousel-item-6 {		
+background-image: url(../img/works/works-page-img-carousel-item-6-SPECIAL-EDITION.jpg);
+}
+
+
+/* 1.5. news IMG carousel IMG BACKGROUND */
+.news-page-img-carousel-item-1 {		
+background-image: url(../img/news/news-page-img-carousel-item-1-SPECIAL-EDITION.jpg);
+}
+
+.news-page-img-carousel-item-2 {		
+background-image: url(../img/news/news-page-img-carousel-item-2-SPECIAL-EDITION.jpg);
+}
+
+.news-page-img-carousel-item-3 {	
+background-image: url(../img/news/news-page-img-carousel-item-3-SPECIAL-EDITION.jpg);
+}
+
+.news-page-img-carousel-item-4 {		
+background-image: url(../img/news/news-page-img-carousel-item-4-SPECIAL-EDITION.jpg);
+}
+
+
+/* 1.5.1. news panel left bg IMG BACKGROUND */
+.panel-left.panel-left-bg-1 {
+background-image: url(../img/news/news-page-img-carousel-item-1-SPECIAL-EDITION.jpg);
+}
+
+.panel-left.panel-left-bg-2 {
+background-image: url(../img/news/news-page-img-carousel-item-2-SPECIAL-EDITION.jpg);
+}
+
+.panel-left.panel-left-bg-3 {
+background-image: url(../img/news/news-page-img-carousel-item-3-SPECIAL-EDITION.jpg);
+}
+
+.panel-left.panel-left-bg-4 {
+background-image: url(../img/news/news-page-img-carousel-item-4-SPECIAL-EDITION.jpg);
+}
+
+
+/* 1.6. contact IMG BACKGROUND */
+.contact-bg {
+background-image: url(../img/contact/contact-bg-SPECIAL-EDITION.jpg);
+}
+
+
+/* 2. additional styling */
+.section-title-heading.section-title-heading-home {
+position: absolute;
+top: 3px;
+font-family: 'Racing Sans One', cursive;
+font-size: 120px;
+font-weight: 900;
+text-transform: uppercase;
+letter-spacing: -0.04em;
+color: #ff264a;
+text-shadow: 1px 1px 2px #111;
+z-index: -1;
+line-height: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section-title-heading.section-title-heading-home {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .section-title-heading.section-title-heading-home {
+    font-size: 60px;
+  }
+}
+
+.section-title-heading {
+position: absolute;
+top: 3px;
+font-family: 'Racing Sans One', cursive;
+font-size: 120px;
+font-weight: 900;
+text-transform: uppercase;
+letter-spacing: normal;
+color: rgba(255, 38, 74, .55);
+z-index: -1;
+line-height: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section-title-heading {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .section-title-heading {
+    font-size: 60px;
+  }
+}
+
+.section-heading {
+font-family: 'Racing Sans One', cursive;
+font-size: 55px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: -0.04em;
+text-align: left;
+color: #fff;
+line-height: 1.25;
+padding: 0 0 0 129px;
+margin: -16px 0 -13px 0;
+}
+
+@media all and (min-width: 1920px) {
+  .section-heading {
+	font-size: 60px;
+	margin: -18px 0 -15px 0;
+  }
+}
+
+.services-container {
+position: relative;
+width: 100%;
+height: 100vh;
+margin: 0;
+padding: 0;
+background: #fff;
+text-align: center;
+}
+
+.services-bg-wrapper {
+position: relative;
+height: 100vh;
+}
+
+.works-page-img-carousel-item {
+position: relative;
+width: 100%;
+height: 100vh;
+background-position: center center;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+   -moz-background-size: cover;
+    -ms-background-size: cover;
+     -o-background-size: cover;
+        background-size: cover;
+}

@@ -1,0 +1,29 @@
+/*
+  [CSS Index]
+  
+  ---
+  
+  Template Name: Wildone - Photography Portfolio Template
+  Author:  ex-nihilo
+  Version: 1.3 - SPECIAL EDITION, GLITCH
+*/
+
+
+/*
+  1. TEMPLATE BACKGROUNDS
+    1.1. glitch IMG BACKGROUND - SPECIAL EDITION, GLITCH
+  2. additional styling
+*/
+
+
+/* 1. TEMPLATE BACKGROUNDS */
+/* 1.1. glitch IMG BACKGROUND - SPECIAL EDITION, GLITCH */
+.glitch-img {
+background-image: url(../img/background/glitch-bg-SPECIAL-EDITION-GLITCH.jpg);
+}
+
+
+/* 2. additional styling */
+.overlay-dark-60:before {
+z-index: 10;
+}
